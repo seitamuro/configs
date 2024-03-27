@@ -1,0 +1,38 @@
+{
+  "name": "@seitamuro/configs",
+  "version": "1.0.0",
+  "private": true,
+  "description": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "prettier": "./prettier",
+  "eslintConfig": {
+    "extends": [
+      "./eslint"
+    ]
+  },
+  "dependencies": {
+    "@tsconfig/strictest": "2.0.3",
+    "@typescript-eslint/eslint-plugin": "7.3.1",
+    "@typescript-eslint/parser": "7.3.1",
+    "better-typescript-lib": "2.6.0",
+    "eslint": "8.57.0",
+    "eslint-config-prettier": "9.1.0",
+    "eslint-import-resolver-typescript": "3.6.1",
+    "eslint-plugin-import": "2.29.1",
+    "eslint-plugin-sort": "2.12.0",
+    "eslint-plugin-unicorn": "51.0.1",
+    "prettier": "3.2.5",
+    "prettier-plugin-packagejson": "2.4.12",
+    "prettier-plugin-sort-json": "3.1.0",
+    "typescript": "5.4.3"
+  },
+  "devDependencies": {
+    "@types/eslint": "8.56.6",
+    "@types/prettier": "3.0.0"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

@@ -18,8 +18,10 @@ module.exports = {
       },
     },
   ],
-  plugins: [],
+  plugins: ['prettier-plugin-prisma'],
   printWidth: 120,
   singleQuote: true,
   trailingComma: 'all',
+  bracketSpacing: true,
+  singleAttributePerLine: true,
 };
